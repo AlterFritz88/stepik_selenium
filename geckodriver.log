@@ -146,3 +146,56 @@ JavaScript error: http://suninjuly.github.io/jquery_min.js, line 76: ReferenceEr
 [Parent 760, Gecko_IOThread] WARNING: pipe error (94): Соединение разорвано другой стороной: file /build/firefox-gHMaBx/firefox-67.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
 [Parent 760, Gecko_IOThread] WARNING: pipe error (80): Соединение разорвано другой стороной: file /build/firefox-gHMaBx/firefox-67.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
 1560594894435	Marionette	INFO	Stopped listening on port 45327
+1560616522749	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MfycI99M2dSa"
+1560616523681	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560616523681	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560616523681	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560616525954	Marionette	INFO	Listening on port 36703
+1560616525967	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11620, Gecko_IOThread] WARNING: pipe error (81): Соединение разорвано другой стороной: file /build/firefox-gHMaBx/firefox-67.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 11620, Gecko_IOThread] WARNING: pipe error (80): Соединение разорвано другой стороной: file /build/firefox-gHMaBx/firefox-67.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1560616549825	Marionette	INFO	Stopped listening on port 36703
+1560616586447	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.S5IJO6Ro5aM9"
+1560616586829	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560616586830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560616586830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560616588795	Marionette	INFO	Listening on port 38329
+1560616588854	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12588, Gecko_IOThread] WARNING: pipe error (80): Соединение разорвано другой стороной: file /build/firefox-gHMaBx/firefox-67.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 12588, Gecko_IOThread] WARNING: pipe error (88): Соединение разорвано другой стороной: file /build/firefox-gHMaBx/firefox-67.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1560616638219	Marionette	INFO	Stopped listening on port 38329
+1560616679992	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YKrtysGFO9D7"
+1560616680387	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560616680387	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560616680388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560616682323	Marionette	INFO	Listening on port 38897
+1560616682398	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560616696247	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+httpGet@http://suninjuly.github.io/jquery_min.js:23:13
+getHashcode@http://suninjuly.github.io/jquery_min.js:32:13
+checkAnswer@http://suninjuly.github.io/jquery_min.js:89:28
+onsubmit@http://suninjuly.github.io/explicit_wait2.html:1:1
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:202:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+[Parent 13567, Gecko_IOThread] WARNING: pipe error (94): Соединение разорвано другой стороной: file /build/firefox-gHMaBx/firefox-67.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 13567, Gecko_IOThread] WARNING: pipe error (80): Соединение разорвано другой стороной: file /build/firefox-gHMaBx/firefox-67.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1560616705470	Marionette	INFO	Stopped listening on port 38897
+1560618609959	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KWiTrwx3V9uG"
+1560618610307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560618610307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560618610307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560618611785	Marionette	INFO	Listening on port 36377
+1560618611905	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560618614840	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6OTCe0GrYxNP"
+1560618615185	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560618615185	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560618615185	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560618616724	Marionette	INFO	Listening on port 39005
+1560618616856	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16066, Gecko_IOThread] WARNING: pipe error (80): Соединение разорвано другой стороной: file /build/firefox-gHMaBx/firefox-67.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 16066, Gecko_IOThread] WARNING: pipe error (83): Соединение разорвано другой стороной: file /build/firefox-gHMaBx/firefox-67.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1560618643096	Marionette	INFO	Stopped listening on port 39005
+[Parent 15152, Gecko_IOThread] WARNING: pipe error (94): Соединение разорвано другой стороной: file /build/firefox-gHMaBx/firefox-67.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 15152, Gecko_IOThread] WARNING: pipe error (80): Соединение разорвано другой стороной: file /build/firefox-gHMaBx/firefox-67.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1560618644514	Marionette	INFO	Stopped listening on port 36377
