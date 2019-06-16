@@ -29,11 +29,11 @@ steps = [
 @pytest.mark.parametrize('link', steps)
 def test_guest_should_see_login_link(browser, link):
     browser.get(link)
-    input_1 = browser.find_element_by_css_selector("#ember1597")
+    input_1 = browser.find_element_by_tag_name("textarea")
     input_1.send_keys(str(math.log(int(time.time()))))
-
-    button = browser.find_element_by_css_selector('#ember1491 > div > div > div.attempt__inner > div.attempt__actions > button')
+    time.sleep(1)
+    button = browser.find_element_by_class_name('submit-submission ')
     button.click()
     time.sleep(1)
-    ans_text = browser.find_element_by_css_selector('#ember1670 > pre').text
+    ans_text = browser.find_element_by_tag_name('pre').text
     assert ans_text == 'Correct!'
